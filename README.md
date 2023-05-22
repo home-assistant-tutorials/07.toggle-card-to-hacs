@@ -2,7 +2,7 @@
 
 # Toggle Card to HACS
 
-![graphical editor](img/intro.png)
+![new repository in HACS](img/title-image.png)
 
 Bringing the toggle card to HACS
 
@@ -10,7 +10,6 @@ Bringing the toggle card to HACS
 
 * @published: May 2023
 * @author: Elmar Hinz
-* @workspace: `conf/www/tutor`
 * @name: `toggle-card-to-hacs`
 * @id: `tcth`
 
@@ -39,8 +38,11 @@ In doubt revisit tutorial 02 and 04.
 
 ## Setup
 
-Take the same steps as in the previous tutorial. Name the helper entity
-`tcth` this time.
+You can directly download the tutorial as a HACS repository. Hence, there
+is no need to install it into `wwww/tutor` like in the previous tutorials. It
+may even cause conflicts.
+
+Name the helper entity `tcth` this time or just use previous one.
 
 ## Code
 

@@ -1,5 +1,7 @@
 # Toggle Card to HACS
 
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+
 Bringing the toggle card to HACS
 
 ***
@@ -42,3 +44,42 @@ Take the same steps as in the previous tutorial. Name the helper entity
 
 The code is the same as in the previous tutorial. All names and ids have been
 adjusted.
+
+## HACS
+
+The requirements of HACS are [documented here](https://hacs.xyz/docs/publish/start).
+
+Some requirements are stored as files into the repository.  Other requirements
+like *description*, *topics* and *version* are edited with the tools of your
+github repository.
+
+### hacs.json
+
+This is the configuration file of the HACS repository.
+
+```js
+{
+    "name": "Simple Toggle Card",
+    "render_readme": true,
+    "filename": "card.js"
+  }
+```
+
+The `name` is the minimal requirement of HACS. It is displayed in the frontend.
+`render_readme` HACS to render the README.md file instead of info.md.
+`filename` is the name of the cards file we want to ship.
+
+### README.md
+
+The README by chance is the file containing this turial. HACS points to
+[this address] (https://github.com/matiassingers/awesome-readme) for suggestions
+how to do a good README.
+
+### Badge
+
+A badge advertises the repository as a HACS repository. The code string is given
+on the page with the documentation.
+
+```js
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+```

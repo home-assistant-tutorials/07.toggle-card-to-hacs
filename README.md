@@ -1,6 +1,8 @@
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+
 # Toggle Card to HACS
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+![graphical editor](img/intro.png)
 
 Bringing the toggle card to HACS
 
@@ -62,12 +64,17 @@ This is the configuration file of the HACS repository.
     "name": "Simple Toggle Card",
     "render_readme": true,
     "filename": "card.js"
+    "content_in_root": true
   }
 ```
 
 The `name` is the minimal requirement of HACS. It is displayed in the frontend.
-`render_readme` HACS to render the README.md file instead of info.md.
+`render_readme` tells HACS to render the README.md file instead of info.md.
 `filename` is the name of the cards file we want to ship.
+
+`content_in_root` informs HACS not to expect a `dist/` directory.
+If you run a toolchain to generate from a `src/` directory you will
+likely use a `dist/` directory which is the default location.
 
 ### README.md
 

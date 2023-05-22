@@ -83,14 +83,32 @@ The README by chance is the file containing this turial. HACS points to
 [this address] (https://github.com/matiassingers/awesome-readme) for suggestions
 how to do a good README.
 
-### Badge
-
-A badge advertises the repository as a HACS repository. The code string is given
-on the page with the documentation.
+A badge in the *README* advertises the repository as a HACS repository. The code
+string is given on the page with the documentation.
 
 ```js
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 ```
+
+### Description and topics
+
+The HACS documentation suggestes to add a discription and topics by the
+administration interface of Github.
+
+![setup on github](img/description-topcis.png)
+
+The description is displayed in the frontend. I didn't find that the topics
+would be used somewhere.
+
+### Version
+
+Bei default the frontend will display the latest git hash of the main branch.
+
+![git hash](img/git-hash.png)
+
+If you want to show a version number instead the HACS documentation advises
+to create a tag with the version PLUS making a realse of it.
+As this tutorials are not versionized, I don't show this.
 
 ## Using the custom card
 

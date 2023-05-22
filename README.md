@@ -15,6 +15,7 @@ Bringing the toggle card to HACS
 
 You learn:
 
+* how to install HACS in the development environment
 * how to layout the Github repository for a custom HACS card
 * how to use the HACS repository
 
@@ -43,6 +44,45 @@ is no need to install it into `wwww/tutor` like in the previous tutorials. It
 may even cause conflicts.
 
 Name the helper entity `tcth` this time or just use previous one.
+
+### Installing HACS in the development environment
+
+If you look for a quick solution you can do this tutorial by using an existings
+HACS installation of your life system. If you want to dig deeper you can install
+HACS into the development-environment that you have set up in tutorial 01.
+
+It is easy to do, as vscode gives you direct access to files and shell. For
+those that have never installed HACS I describe it within this environment. For
+the most steps of the installation I refer to the HACS homepage, which describes
+the requirements and steps in detail.
+
+The starting point of the installation is here with
+[Prerequisites](https://hacs.xyz/docs/setup/prerequisites). You can skip the
+setup of *my integration* within vscode. I will not work here anyway. Follow
+along the setup, do the given steps and always click *next* until the setup is
+done.
+
+In the download page select the setup for *Core*:
+
+```js
+wget -O - https://get.hacs.xyz | bash -
+
+```
+
+Open a shell in vscode to execte it.
+
+![download start](img/shell-download-start.png)
+[ ... ]
+![download end](img/shell-download-end.png)
+
+As suggestet restart *Home Assistant*, so that everthing gets loaded so far.
+Kill the terminal by clicking the trash icon. Then restart *Home Assistant*.
+See tutorial 01 to recap how to do it.
+
+Follow along the instruction. Do the steps with the Github device ativation. If
+everything works as expected, *HACS* will show up in the menu on the left.
+
+![HACS installed](img/success.png)
 
 ## Code
 

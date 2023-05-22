@@ -49,7 +49,7 @@ Name the helper entity `tcth` this time or just use previous one.
 
 If you look for a quick solution you can do this tutorial by using an existings
 HACS installation of your life system. If you want to dig deeper you can install
-HACS into the development-environment that you have set up in tutorial 01.
+HACS into the development environment that you have set up in tutorial 01.
 
 It is easy to do, as vscode gives you direct access to files and shell. For
 those that have never installed HACS I describe it within this environment. For
@@ -188,6 +188,11 @@ At the lower right hand corner, there is the download button.
 ![step 8](img/8-download-popup.png)
 
 A download popup asks for confirmation and tells you the target directory.
+
+![step 8 core container](img/hacsfiles.png)
+
+**IMPORTANT**: In case you work within the core development container you will have
+to manually add the resource under `/hacsfiles/` just as it tells you.
 
 ![step 9](img/9-reload-popup.png)
 

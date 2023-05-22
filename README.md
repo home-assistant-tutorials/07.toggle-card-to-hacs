@@ -91,3 +91,49 @@ on the page with the documentation.
 ```js
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 ```
+
+## Using the custom card
+
+Assuming you have HACS installed an you have first experiences how to use it.
+
+![step 1](img/1-hacs-in-menu.png)
+
+Open HACS in the menu on the left.
+
+![step 2](img/2-frontend-selection.png)
+
+Select frontend in the list.
+
+![step 3](img/3-custom-repository-selection.png)
+
+In the upper right hand corner select custom repositories.
+
+![step 4](img/4-url-insertion.png)
+
+Insert the *URL* and select the catergory *Lovelace*. The *URL* may be the *URL* of
+this tutorial or your fork of it i.e. `https://github.com/home-assistant-tutorials/07.toggle-card-to-hacs`.
+
+![step 5](img/5-new-repository.png)
+
+After clicking *ADD* the card is registered as a new repository.
+
+![step 6](img/6-readme.png)
+
+Select it and this *README* will be displayed.
+
+![step 7](img/7-downoad-button.png)
+
+At the lower right hand corner, there is the download button.
+
+![step 8](img/8-download-popup.png)
+
+A download popup asks for confirmation and tells you the target directory.
+
+![step 9](img/9-reload-popup.png)
+
+After download you have to reload the browser.
+
+![step 10](img/10-custom-card-selection.png)
+
+Now change to your dashboard to add a card as usual. You find the new
+card in the thumbnails selection.

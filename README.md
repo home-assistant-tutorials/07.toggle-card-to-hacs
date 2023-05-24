@@ -21,15 +21,16 @@ You learn:
 
 ## Goal
 
-The goal of this tutorial is to bring you card to HACS by preparing a repository
-on Github according to the requirements of HACS. It will be a custom repository.
-We don't register it as a default repository.
+The goal of this tutorial is to bring your card to HACS by preparing a
+repository on Github satisfying the requirements. It will be a custom HACS
+repository. We don't register it as a default repository to not pollute it with
+myriads of toggle cards.
 
 ## Prerequisites
 
 * tutorial 06: toggle with graphical configuration
 * you have an account on github
-* you have HACS installed into homeassistant
+* you have HACS installed into Home Assistant
 * you know how to register `card.js` as a resource
 * you know how to create the helper entity of type boolean aka toggle
 * you know how to add and edit a card
@@ -47,7 +48,7 @@ Name the helper entity `tcth` this time or just use previous one.
 
 ### Installing HACS in the development environment
 
-If you look for a quick solution you can do this tutorial by using an existings
+If you look for a quick solution you can do this tutorial by using an existing
 HACS installation of your life system. If you want to dig deeper you can install
 HACS into the development environment that you have set up in tutorial 01.
 
@@ -69,24 +70,24 @@ wget -O - https://get.hacs.xyz | bash -
 
 ```
 
-Open a shell in vscode to execte it.
+Open a shell in vscode to execute it.
 
 ![download start](img/shell-download-start.png)
 [ ... ]
 ![download end](img/shell-download-end.png)
 
-As suggestet restart *Home Assistant*, so that everthing gets loaded so far.
+As suggested restart *Home Assistant*, so that everything gets loaded so far.
 Kill the terminal by clicking the trash icon. Then restart *Home Assistant*.
 See tutorial 01 to recap how to do it.
 
-Follow along the instruction. Do the steps with the Github device ativation. If
+Follow along the instruction. Do the steps with the Github device activation. If
 everything works as expected, *HACS* will show up in the menu on the left.
 
 ![HACS installed](img/success.png)
 
 ## Code
 
-The code `cardjs` is the same as in the previous tutorial. All names and ids
+The code `card.js` is the same as in the previous tutorial. All names and ids
 have been adjusted.
 
 ## HACS
@@ -121,7 +122,7 @@ directory which is the default location.
 
 ### The `README.md` file
 
-The README by chance is the file containing this turial. HACS points to
+The README by chance is the file containing this tutorial. HACS points to
 [this address] (https://github.com/matiassingers/awesome-readme) for suggestions
 how to do a good README.
 
@@ -134,7 +135,7 @@ string is given on the page with the documentation.
 
 ### Description and topics
 
-The HACS documentation suggestes to add a discription and topics by the
+The HACS documentation suggests to add a description and topics by the
 administration interface of Github.
 
 ![setup on github](img/description-topcis.png)
@@ -149,8 +150,8 @@ Bei default the frontend will display the latest git hash of the main branch.
 ![git hash](img/git-hash.png)
 
 If you want to show a version number instead the HACS documentation advises
-to create a tag with the version PLUS making a realse of it.
-As this tutorials are not versionized, I don't show this.
+to create a tag with the version PLUS making a release of it.
+As this tutorials are not versioned I don't show this.
 
 ## Using the custom card
 
@@ -170,7 +171,7 @@ In the upper right hand corner select custom repositories.
 
 ![step 4](img/4-url-insertion.png)
 
-Insert the *URL* and select the catergory *Lovelace*. The *URL* may be the *URL* of
+Insert the *URL* and select the category *Lovelace*. The *URL* may be the *URL* of
 this tutorial or your fork of it i.e. `https://github.com/home-assistant-tutorials/07.toggle-card-to-hacs`.
 
 ![step 5](img/5-new-repository.png)
